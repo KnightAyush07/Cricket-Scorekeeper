@@ -10,6 +10,7 @@ import RedoButton from "./component/RedoButton";
 import SixesFoursBox from "./component/SixesFoursBox";
 import OversSelector from "./component/OversSelector";
 import InningsEndBox from "./component/InningsEndBox";
+import grassImage from "/src/assets/grass.jpg";
 import "./styles2.css";
 
 const App = () => {
@@ -309,7 +310,7 @@ const App = () => {
   return (
     <div
       className="relative min-h-screen bg-cover bg-center"
-      style={{ backgroundImage: `url('/src/assets/grass.jpg')` }}
+      style={{ backgroundImage: `url(${grassImage})` }}
     >
       {!oversCount ? (
         <div className="absolute inset-1/2 transform -translate-x-1/2 -translate-y-1/2">

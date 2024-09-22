@@ -1,0 +1,45 @@
+/* component/InningsEndBox.css */
+.innings-end-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    backdrop-filter: blur(10px); /* Blurs the background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .innings-end-box {
+    background-color: rgba(0, 0, 0, 0.8); /* Black background with opacity */
+    color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 500px; /* Adjust as needed */
+  }
+  
+  .box-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .total-score,
+  .total-wickets {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .score {
+    color: blue; /* Score text in black */
+  }
+  
+  .wickets {
+    color: red; /* Wickets text in red */
+  }
+  

@@ -1,0 +1,13 @@
+.sixes-fours-box {
+    width: 150px; /* Adjust width as needed */
+    height: auto; /* Automatically adjusts height based on content */
+  }
+  
+  .sixes-fours-box h2 {
+    margin-bottom: 16px;
+  }
+  
+  .sixes-fours-box .text-xl {
+    font-size: 1.5rem;
+  }
+  

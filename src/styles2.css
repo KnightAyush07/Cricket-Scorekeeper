@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.current-over-box,
+.runs-box,
+.extras-box,
+.total-runs-box,
+.total-wickets-box,
+.wickets-box,
+.undo-button {
+  box-sizing: border-box;
+}
+
+/* CurrentOverBox Styles */
+.current-over-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Button Styles */
+.over-button,
+.runs-button,
+.extras-button,
+.wickets-button {
+  background-color: gray;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50%; /* Rounded buttons */
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.over-button:hover,
+.runs-button:hover,
+.extras-button:hover,
+.wickets-button:hover {
+  background-color: darkgray; /* Change color on hover */
+}
+
+/* RunsBox Styles */
+.runs-box .runs-buttons {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.runs-button {
+  background-color: #1e40af;
+  border-radius: 6px;
+}
+
+/* ExtrasBox Styles */
+.extras-box .extras-buttons {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.extras-button {
+  background-color: #059669;
+  border-radius: 6px;
+}
+
+/* WicketsBox Styles */
+.wickets-box .wickets-buttons {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.wickets-button {
+  background-color: #dc2626;
+  border-radius: 6px;
+}
+
+/* Undo Button Styles */
+.undo-button {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  z-index: 10;
+  background-color: #dc2626;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.undo-button:hover {
+  background-color: #b91c1c;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+/* styles2.css */
+/* Existing styles */
+
+/* Redo Button Styles */
+.redo-button {
+  background-color: #16a34a; /* Green color */
+}
+
+.redo-button:hover {
+  background-color: #15803d; /* Darker green on hover */
+}
+/* Undo and Redo Button Styles */
+.undo-redo-buttons {
+  position: fixed;
+  bottom: 4px; /* Distance from the bottom of the page */
+  right: 4px; /* Distance from the right edge of the page */
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between the Undo and Redo buttons */
+}
+
+/* Undo Button Styles */
+.undo-button {
+  background-color: #dc2626; /* Red color for undo */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.undo-button:hover {
+  background-color: #b91c1c; /* Darker red on hover */
+}
+
+/* Redo Button Styles */
+.redo-button {
+  background-color: #4f46e5; /* Blue color for redo */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.redo-button:hover {
+  background-color: #3730a3; /* Darker blue on hover */
+}

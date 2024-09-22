@@ -1,0 +1,43 @@
+.overs-selector-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Full width to ensure centering */
+    height: 100vh; /* Full viewport height to ensure vertical centering */
+  }
+  
+  .overs-selector {
+    width: 600px; /* Width of the box */
+    height: 200px; /* Height of the box */
+    display: flex;
+    flex-direction: column; /* Vertical layout inside the box */
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(34, 193, 195, 0.9); /* Background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow */
+    border: 1px solid #ccc; /* Border */
+    padding: 1rem;
+  }
+  
+  .overs-selector h2 {
+    margin-bottom: 1rem; /* Spacing between the heading and other elements */
+  }
+  
+  .overs-selector .flex {
+    margin-bottom: 1rem; /* Spacing between buttons and input */
+  }
+  
+  .overs-selector input {
+    width: 100px; /* Width of the input field */
+    margin-bottom: 1rem; /* Spacing between the input field and the start button */
+  }
+  
+  .overs-selector button {
+    margin: 0 0.5rem; /* Spacing between buttons */
+  }
+  

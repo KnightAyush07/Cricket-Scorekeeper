@@ -309,11 +309,11 @@ const App = () => {
 
   return (
     <div
-      className="relative min-h-screen bg-cover bg-center"
+      className="relative min-h-screen bg-cover bg-center "
       style={{ backgroundImage: `url(${grassImage})` }}
     >
       {!oversCount ? (
-        <div className="absolute inset-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <div className="absolute inset-0 flex justify-center items-center">
           <OversSelector onStart={startInnings} />
         </div>
       ) : (

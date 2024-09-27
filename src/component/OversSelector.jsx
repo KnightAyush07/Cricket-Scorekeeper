@@ -6,9 +6,12 @@ const OversSelector = ({ onStart }) => {
   };
 
   return (
-    <div className="overs-selector-container">
-      <div className="overs-selector bg-opacity-70 bg-green-800 text-white p-6 border border-gray-600 rounded-md shadow-md w-96">
-        <h2 className="text-center text-lg font-bold mb-4">Select Number of Overs</h2>
+    // <div className="overs-selector-container justify-center border w-5">
+    <div className="justify-center">
+      <div className=" bg-opacity-70 bg-green-800 text-white p-6 border border-gray-600 rounded-md shadow-md w-96 ">
+        <h2 className="text-center text-lg font-bold mb-4">
+          Select Number of Overs
+        </h2>
         <div className="flex flex-col items-center mb-4">
           {/* Predefined buttons */}
           <div className="flex space-x-2 mb-4">
